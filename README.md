@@ -25,7 +25,7 @@ GitHub Commands to deploy
 2. git add . -> to our files to the repo
 3. git commit -m "Message" -> to add a message that describes what changes were made
 4. git remote add origin  -> to link local repo to remote repo
-5. git push --set-upstream origin master -> to save the files to the GitHub
+5. git push --set-upstream origin master repo name -> to save the files to the GitHub
 6. npm install gh-pages --save-dev -> to deploy the application in GitHub
 7. npm run build ->  to optimize your project for deployment like converting React, JSX files will be converted into standard JavaScript files
 8. npm run deploy -> used to deploy your project to a hosting platform
