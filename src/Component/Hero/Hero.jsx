@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import profilepicture from '../../assets/profilepicture.png';
-import Resume from '../../assets/Resume.pdf';
+import resume from '../../assets/Resume.pdf';
 import hub from '../../assets/hub.png';
 import res from '../../assets/res.png';
 import linkedin from '../../assets/linkedin.png';
@@ -16,7 +16,7 @@ const Hero = () => {
       </p>
 
       <div className='hero-action'>
-        <a href={Resume} download className="hero-resume">
+        <a href={resume} download className="hero-resume">
           <img src={res} alt="Resume" />
         </a>
         
