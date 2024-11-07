@@ -3,6 +3,15 @@
     align-items: center;
     flex-direction: column;
     text-align: center; 
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .hero img {
@@ -11,15 +20,36 @@
     height: 150px; 
     border-radius: 50%; 
     object-fit: cover; 
+    animation: scaleUp 1.2s ease-in-out;
+}
+@keyframes scaleUp {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 .hero h1 {
     width: 70%;
-    font-size: 40px; 
+    font-size: 50px; 
     font-weight: 600; 
+    animation: slideIn 1.5s ease-out;
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hero p {
+    margin-top: 20px;
     font-size: 20px; 
     line-height: 24px; 
     color: beige;
