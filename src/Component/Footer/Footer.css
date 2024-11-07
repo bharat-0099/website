@@ -1,0 +1,23 @@
+.footer {
+    display: flex; 
+    justify-content: center; 
+    padding: 20px; 
+    
+}
+
+.social {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+.logo {
+    width: 30px; 
+    height: auto; 
+    transition: transform 0.3s ease; 
+    border-radius: 20px;
+}
+
+.logo:hover {
+    transform: scale(1.1); 
+}

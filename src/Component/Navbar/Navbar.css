@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center; 
+    list-style: none;
+    gap: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    flex-grow: 1; 
+}
+
+.nav-connect {
+    padding: 20px 20px;
+    border-radius: 20px;
+    background: linear-gradient(267deg, rgba(241, 238, 7, 0.877) 0.5%, #f8af92 102.6%);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-p {
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+
+.nav-menu:hover {
+    transform: scale(1.20);
+}
+
+.nav-connect:hover {
+    transform: scale(1.28);
+}
+
+.nav-menu li:hover {
+    transform: scale(1.05);
+    color: #f8af92; 
+    background: rgba(241, 238, 7, 0.1); 
+}
+
+.anchor-link {
+    text-decoration: none;
+    color: bisque;
+}

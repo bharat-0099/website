@@ -1,0 +1,61 @@
+.myskills {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .skill {
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    max-width: 300px; 
+  }
+  
+  .skill-logo {
+    width: 45px; 
+    height: auto; 
+    margin: 10px; 
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  /* Hover effect */
+  .skill-logo:hover {
+    transform: scale(1.2);
+    opacity: 0.9; 
+  }
+  
+  
+  .skill-logo:nth-child(1) { order: 1; }
+  .skill-logo:nth-child(2) { order: 1; }
+  .skill-logo:nth-child(3) { order: 1; }
+  .skill-logo:nth-child(4) { order: 1; }
+  
+  .skill-logo:nth-child(5) { order: 2; } 
+  .skill-logo:nth-child(6) { order: 2; }
+  .skill-logo:nth-child(7) { order: 2; }
+  
+  .skill-logo:nth-child(8) { order: 3; } 
+  .skill-logo:nth-child(9) { order: 3; }
+  
+  .skill-logo:nth-child(10) { order: 4; } 
+  .skill-logo:nth-child(11) { order: 4; }
+  
+  .skill-logo:hover {
+    transform: scale(2.5); 
+    opacity: 01.2; 
+  }
+  
+  

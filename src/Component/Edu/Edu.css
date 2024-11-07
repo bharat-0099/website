@@ -1,0 +1,53 @@
+.edu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    font-size: 16px;
+}
+
+.edu-title {
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.edu-container {
+    display: flex;
+    gap: 20px;
+}
+
+.edu-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #f8af92;
+   
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(8, 8, 8);
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    width: 300px;
+   
+}
+
+.university-logo {
+    width: 60px;
+   height:auto;
+    
+    margin-right: 30px;
+    
+}
+
+.edu-info {
+    display: flex;
+    flex-direction: column;
+}
+.edu-box:hover {
+    transform: scale(1.2); 
+    opacity: 0.8; 
+  }
