@@ -11,6 +11,9 @@
     padding: 20px;
     font-size: 40px;
     font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: 0.5s;
+    flex-grow: 1;
 }
 .bus-overview h2{
     margin-bottom: 15px;
