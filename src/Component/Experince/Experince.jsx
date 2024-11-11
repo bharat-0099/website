@@ -15,8 +15,8 @@ const Experince = () => {
           <img src={doit} alt="doit Logo" className="university-logo" />
           <div className="exp-info">
             <h2>Software Developer Intern</h2>
-            <p>Kube IT, Atlanta, GA</p>
-            <p>March 2024 to Oct 2024</p>
+            <p>Illinois Department of Innovation & Technology (DoIT), Springfield, IL</p>
+            <p>March 2024 to Aug 2024</p>
             <ul>
               <li>Crafted responsive user interfaces with HTML5, CSS3, and Bootstrap, enhancing user engagement through intuitive design and interactive elements.</li>
               <li>Constructed reusable React components and employed Redux for efficient state management, decreasing code redundancy by 25% and improving maintainability.</li>
