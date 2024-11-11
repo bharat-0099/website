@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import profilepicture from '../../assets/profilepicture.png';
-import resume from '../../assets/Resume.pdf';
+import resume from '../../assets/Bharat Chundru Resume.pdf';
 import hub from '../../assets/hub.png';
 import res from '../../assets/res.png';
 import linkedin from '../../assets/linkedin.png';

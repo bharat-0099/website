@@ -2,6 +2,7 @@ import React from 'react';
 import './Experince.css';
 import kube from '../../assets/kube.png';
 import uis from '../../assets/uis.svg';
+import doit from '../../assets/doit.png';
 
 const Experince = () => {
   return (
@@ -11,7 +12,7 @@ const Experince = () => {
       </div>
       <div className="exp-container">
         <div className="exp-box">
-          <img src={kube} alt="Kube Logo" className="university-logo" />
+          <img src={doit} alt="doit Logo" className="university-logo" />
           <div className="exp-info">
             <h2>Software Developer Intern</h2>
             <p>Kube IT, Atlanta, GA</p>
