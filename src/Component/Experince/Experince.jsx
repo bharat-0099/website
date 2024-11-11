@@ -14,7 +14,7 @@ const Experince = () => {
         <div className="exp-box">
           <img src={doit} alt="doit Logo" className="university-logo" />
           <div className="exp-info">
-            <h2>Software Developer Intern</h2>
+            <h2>Software Developer</h2>
             <p>Illinois Department of Innovation & Technology (DoIT), Springfield, IL</p>
             <p>March 2024 to Aug 2024</p>
             <ul>
