@@ -1,31 +1,53 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './Projects.css';
+
+
 const Projects = () => {
+    useEffect(() => {
+       
+        const projectBoxes = document.querySelectorAll('.pro-box');
+        projectBoxes.forEach((box, index) => {
+            setTimeout(() => {
+                box.classList.add('show');
+            }, index * 300); 
+        });
+    }, []);
+
     return (
-        <div id="Projects"className='pro'>
+        <div id="Projects" className="pro">
             <div className="pro-title">
                 <h1>Projects</h1>
             </div>
             <div className="pro-container">
                 <div className="pro-box">
                     <div className="pro-info">
-                        <h2>Library Management System</h2>
+                        <h2>E-Commerce Platform</h2>
                         <ul>
-                            <li>Established a Java-based library management system, enhancing user experience through a streamlined interface, which increased user engagement.</li>
-                            <li>Applied SQL database integration, optimizing data retrieval processes.</li>
-                            <li> Designed and executed unit tests, achieving a defect rate, thereby ensuring high-quality code and system reliability</li>
-                            <p>Skills : JAVA,Java Database Connectivity(JDBC),Agile Methodologies,SQL </p>
+                            <li>Developed a full-stack E-commerce platform using React for a dynamic and responsive UI, Node.js for scalable server-side processing, and MongoDB for NoSQL database management.
+                            .</li>
+                            <li>Implemented key features such as JWT-based user authentication, product catalog with pagination, shopping cart with Redux state management, and real-time order tracking
+                            .</li>
+                            <li>Enhanced application performance by optimizing MongoDB queries with indexes and integrating Redis caching for frequently accessed data, reducing server response time.
+                            </li>
+                            <li>Ensured cross-device compatibility with responsive design principles and achieved seamless UX through integration with payment gateways like Stripe, enabling secure and efficient transactions.
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div className="pro-box">
                     <div className="pro-info">
-                        <h2>E-Commence Platform</h2>
+                        <h2>Heart Disease Prediction</h2>
                         <ul>
-                            <li>Designed a comprehensive e-commerce platform with features including shopping carts, order management, user authentication, and product browsing.</li>
-                            <li>Built a responsive front end using Redux, React.js, HTML5, and CSS3, enhancing user experience and accessibility</li>
-                            <li> Engineered a robust backend using the JDBC API, MySQL, Express.js, and Node.js frameworks, ensuring seamless integration and data management</li>
-                            <p>Skills :  HTML,CSS,Java,Java Database Connectivity(JDBC),JavaScript,MySQL,React,Application Programming Interfaces (API),Node.js,Express.js </p>
+                            <li>Designed and implemented a heart disease prediction system using Logistic Regression and Random Forest, leveraging scikit-learn for efficient algorithm deployment.
+                            </li>
+                            <li>Preprocessed raw medical datasets with techniques like scaling, one-hot encoding, and PCA to reduce dimensionality, and engineered key features such as cholesterol levels, blood pressure, and BMI to enhance predictive accuracy.
+                            </li>
+                            <li>Achieved a 94% model accuracy through advanced hyperparameter tuning using GridSearchCV and cross-validation, ensuring model robustness and reliability across test datasets.
+                            </li>
+                            <li>
+                            Visualized critical health metrics with Matplotlib and Seaborn, enabling data-driven insights for feature correlation and improving interpretability of the classification results.
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -33,17 +55,16 @@ const Projects = () => {
                     <div className="pro-info">
                         <h2>Car Dealership</h2>
                         <ul>
-                            <li> Designed a comprehensive car dealership platform with features including vehicle listings, search and filtering, user authentication, and order management.</li>
-                            <li>Built a responsive front end using JavaFX and Swing, providing a user-friendly interface for enhanced user experience and accessibility</li>
-                            <li> Engineered a robust backend using Java with JDBC for database connectivity and MySQL for data management, ensuring seamless integration and efficient data handling</li>
-                            <p>Skills : Java,Object-Oriented Programming(OOP),MySQL,Java Database Connectivity(JDBC)</p>
+                            <li>Designed a comprehensive car dealership platform with features including vehicle listings, search and filtering, user authentication, and order management.</li>
+                            <li>Built a responsive front end using JavaFX and Swing, providing a user-friendly interface for enhanced user experience and accessibility.</li>
+                            <li>Engineered a robust backend using Java with JDBC for database connectivity and MySQL for data management, ensuring seamless integration and efficient data handling.</li>
+                            <p>Skills: Java, Object-Oriented Programming (OOP), MySQL, Java Database Connectivity (JDBC)</p>
                         </ul>
                     </div>
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default Projects
+export default Projects;
