@@ -62,6 +62,18 @@ const Projects = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="pro-box">
+                    <div className="pro-info">
+                        <h2>Library Mangement System</h2>
+                        <ul>
+                            <li>Established a Java-based library management system, enhancing user experience through a streamlined interface, which increased user engagement.</li>
+                            <li>Applied SQL database integration, optimizing data retrieval processes, resulting in a 40% reduction in query response time.</li>
+                            <li>Designed and executed unit tests, achieving a defect rate, thereby ensuring high-quality code and system reliability.</li>
+                            <li>Coordinated with a team of developers, utilizing Agile methodologies, to deliver the project ahead of schedule.</li>
+                            <p>Skills: Java, MySQL, Java Database Connectivity (JDBC), Agile Methodlogy</p>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -1,62 +1,80 @@
-import React from 'react'
+import React from 'react';
 import './Contact.css';
-import loc from '../../assets/loc.png';
-import gmail from '../../assets/phone.png';
-import phone from '../../assets/gmail.png';
 import m from '../../assets/m.png';
+
 const Contact = () => {
     const [result, setResult] = React.useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending...");
 
-    formData.append("access_key", "41bd4949-94ab-4b71-ba89-4de618ca7686");
+        
+        const form = event.target;
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const message = form.message.value.trim();
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+        
+        if (!name || !email || !message) {
+            alert("Please fill out all fields before submitting.");
+            setResult("");
+            return;
+        }
 
-    const data = await response.json();
+        const formData = new FormData(form);
+        formData.append("access_key", "41bd4949-94ab-4b71-ba89-4de618ca7686");
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      alert(data.message)
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData,
+            });
+
+            const data = await response.json();
+
+            if (data.success) {
+                setResult("Form Submitted Successfully");
+                alert("Details sent successfully!");
+                form.reset();
+            } else {
+                console.error("Error:", data);
+                setResult(data.message);
+                alert(`Error: ${data.message}`);
+            }
+        } catch (error) {
+            console.error("Submission failed:", error);
+            setResult("An error occurred. Please try again.");
+            alert("An error occurred. Please try again.");
+        }
+    };
+
     return (
-        <div id="Contact"className='contact'>
+        <div id="Contact" className="contact">
             <div className="contact-title">
                 <h1>Get in Touch</h1>
             </div>
             <div className="contact-section">
                 <div className="contact-left">
-                    <h1>Lets Talk</h1>
-                    <p>Please feel free to send a message about anything that you want me yo work on</p>
-                    <label><img src={m} alt="gmail logo"/>chundrubharat6699@gmail.com</label>
-                    
+                    <h1>Let's Talk</h1>
+                    <p>Please feel free to send a message about anything that you want me to work on.</p>
+                    <label><img src={m} alt="gmail logo"/> chundrubharat6699@gmail.com</label>
                 </div>
-                <form className='contact-right'onSubmit={onSubmit}>
-                    <label htmlFor=''>Your Name</label>
-                    <input type='text' placeholder='Enter your Name' name='name'></input>
-                    <label htmlFor='Email'>Email</label>
-                    <input type='email' placeholder='Enter your Email' name='email'></input>
-                    <label htmlFor=''>Message!</label>
-                    <textarea name='message' placeholder='Enter your Message'></textarea>
-                    <button className='contact-submit' type='submit'>Submit</button>
-
-
+                <form className="contact-right" onSubmit={onSubmit}>
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your Name" name="name" required />
+                    
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your Email" name="email" required />
+                    
+                    <label>Message</label>
+                    <textarea name="message" placeholder="Enter your Message" required></textarea>
+                    
+                    <button className="contact-submit" type="submit">Submit</button>
                 </form>
-
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Contact
+export default Contact;

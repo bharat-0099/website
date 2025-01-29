@@ -13,11 +13,11 @@
 }
 
 .contact-title h1 {
-    font-family: cursive;
+    
     display: flex;
     padding: 20px;
     font-size: 40px;
-    font-family: cursive;
+   
     align-items: center;
     justify-content: center;
 }

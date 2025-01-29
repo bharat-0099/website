@@ -8,6 +8,8 @@ import Business from "./Component/Business/Business";
 import Projects from "./Component/Projects/Projects";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
+import Certification from "./Component/Certifictation/Certification";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
     <Skills/>
     <Edu/>
     <Experince/>
+    <Certification/>
     <Business/>
     <Projects/>
     <Contact/>

@@ -7,33 +7,31 @@ import linkedin from '../../assets/linkedin.png';
 
 const Hero = () => {
   return (
-    <div id="about" className='hero'>
-      <img src={profilepicture} alt="profile" className='pics' />
+    <div id="about" className="hero">
+      <img src={profilepicture} alt="profile" className="pics" />
       <h1>I'm Bharat Chundru,</h1>
       <p>
-        Computer Science professional holding both a Bachelor's and Master's degree from the University of Illinois Springfield. My academic path has equipped me with a deep understanding of algorithms, data structures, and software engineering practices, all essential building blocks for creating efficient, high-quality software solutions.
-
-
-      </p>
-      <p>
-      During my studies, I immersed myself in projects that expanded my proficiency in programming languages like Java, Python, and C++. These experiences didn’t just enhance my technical knowledge; they refined my problem-solving skills and instilled in me a structured, methodical approach to development. Whether working solo or within a team, I thrive on tackling complex challenges and bringing ideas to life through code.
-      </p>
-      <p>
-      Software Engineer with 2 years of experience in designing and developing scalable, high-performance applications. Skilled in Java, Python, Spring Boot, React, Node.js, MongoDB, and the MERN Stack, with hands-on expertise in microservices, distributed systems, and CI/CD practices. Proficient in optimizing database performance, leveraging design patterns, and deploying reliable systems using Jenkins, Docker, and Kubernetes. Experienced in machine learning model building, achieving model accuracy above 90%, and collaborating effectively in Agile teams to deliver high-quality software solutions.
+        Computer Science Graduate from the University of Illinois Springfield and a Software Engineer with over a year of experience in developing high-performance web applications, APIs, and microservices. I specialize in Java, Python, Spring Boot, React, and databases, and I have a proven track record of enhancing system efficiency and user engagement through innovative technology solutions.
+        <br /><br />
+        Currently, I’m working as a Software Engineer where I develop scalable applications and optimize system performance for the Illinois Department of Innovation & Technology. My work revolves around creating responsive UIs with React, building high-concurrency systems using Spring Boot, and improving database performance through strategic optimizations.
+        <br /><br />
+        I hold a Master’s degree in Computer Science from the University of Illinois Springfield, where I’ve honed my skills in Machine Learning, Big Data, and Web Design. My expertise spans a wide range of technologies, including AWS, Docker, and CI/CD tools like Jenkins, all of which I use to ensure seamless deployments and efficient workflows.
+        <br /><br />
+        Outside of my professional work, I’m actively expanding my skill set with Spring and Spring Boot, and I enjoy tackling complex technical challenges and building efficient solutions. I’m passionate about staying up-to-date with the latest tech trends and am excited to contribute to cutting-edge projects.
       </p>
 
-      <div className='hero-action'>
+      <div className="hero-action">
         <a href="/assets/Bharat_Chundru_SDE_Resume.docx" download className="hero-resume">
           <img src={res} alt="Resume" />
         </a>
 
-        <a href="https://www.linkedin.com/in/bharat-chundru" className='hero-resume'>
-          <img src={linkedin} alt="LinkedIn" /></a>
+        <a href="https://www.linkedin.com/in/bharat-chundru" className="hero-resume">
+          <img src={linkedin} alt="LinkedIn" />
+        </a>
 
-        <a href="https://github.com/bharat-0099" className='hero-resume'>
-          <img src={hub} alt="Git hub" /></a>
-
-
+        <a href="https://github.com/bharat-0099" className="hero-resume">
+          <img src={hub} alt="GitHub" />
+        </a>
       </div>
     </div>
   );
