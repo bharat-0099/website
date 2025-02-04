@@ -31,6 +31,7 @@ const Projects = () => {
                             </li>
                             <li>Ensured cross-device compatibility with responsive design principles and achieved seamless UX through integration with payment gateways like Stripe, enabling secure and efficient transactions.
                             </li>
+                            <li>Skills: HTML, CSS, REACT, Node.js, Java, JDBC, API, JavaScript</li>
                         </ul>
                     </div>
                 </div>
@@ -46,6 +47,9 @@ const Projects = () => {
                             </li>
                             <li>
                             Visualized critical health metrics with Matplotlib and Seaborn, enabling data-driven insights for feature correlation and improving interpretability of the classification results.
+                            </li>
+                            <li>
+                                Skills: Python, Pandas, Machine Learning Algorithms (CNN, Neural Networks, Logistic Regression, SVM, Random Forest)
                             </li>
                             
                         </ul>
