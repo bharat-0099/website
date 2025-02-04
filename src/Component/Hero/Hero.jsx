@@ -21,7 +21,7 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-        <a href="/assets/Bharat_Chundru_SDE_Resume.docx" download className="hero-resume">
+        <a href="/assets/src/assets/Bharat Chundru Resume.pdf" download className="hero-resume">
           <img src={res} alt="Resume" />
         </a>
 
