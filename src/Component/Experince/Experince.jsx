@@ -4,6 +4,7 @@ import kube from '../../assets/kube.png';
 import uis from '../../assets/uis.svg';
 import doit from '../../assets/doit.png';
 import apssdc from '../../assets/apssdc.jpg';
+import bsnl from '../../assets/Bsnl.png';
 
 const Experince = () => {
   useEffect(() => {
@@ -19,7 +20,7 @@ const Experince = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.4 }
     );
 
     boxes.forEach((box) => observer.observe(box));
@@ -79,6 +80,25 @@ const Experince = () => {
             </ul>
           </div>
         </div>
+
+        <div className="exp-box">
+        <img src={bsnl} alt="UIS Logo" className="university-logo" />
+          <div className="exp-info">
+            <h2>Wb Developer Intern </h2>
+            <p>BSNL India</p>
+            <p>March 2021 to June 2021</p>
+            <ul>
+              <li>Designed and maintained Dashboards using HTML5, CSS3, and JavaScript, Improved UI/UX performance, Optimized
+backend development using Node.js and Express.js, Implemented SQL queries for database management and optimization
+ </li>
+              <li>Collaborated with designers and backend developers to integrate
+              RESTful APIs and enhance functionality</li>
+              <li>Utilized Git and GitHub for version control and collaborated using Agile methodologies</li>
+              
+            </ul>
+          </div>
+        </div>
+
       </div>
     </div>
   );

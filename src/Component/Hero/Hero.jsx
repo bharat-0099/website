@@ -21,10 +21,18 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-        <a href="/assets/src/assets/Bharat Chundru Resume.pdf" download className="hero-resume">
-          <img src={res} alt="Resume" />
+        <a
+          href="/assets/src/assets/Bharat Chundru Resume.pdf"
+          download
+          className="hero-resume"
+        >
+          <button className="download-btn">
+             Resume
+          </button>
         </a>
+      </div>
 
+      <div className="hero-icons">
         <a href="https://www.linkedin.com/in/bharat-chundru" className="hero-resume">
           <img src={linkedin} alt="LinkedIn" />
         </a>

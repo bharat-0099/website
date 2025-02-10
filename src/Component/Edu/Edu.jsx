@@ -14,16 +14,20 @@ const Edu = () => {
                     <img src={uis} alt="University of Illinois Springfield" className="university-logo" />
                     <div className="edu-info">
                         <h1>Masters</h1>
-                        <p>University of Illinois Springfield</p>
+                        <b>University of Illinois Springfield</b>
+                        
+                        <p>Computer Science</p>
                         <p>Aug 2022 to Jan 2024</p>
                         <p>GPA: 3.8</p>
+                       
                     </div>
                 </div>
                 <div className="edu-box">
                     <img src={srm} alt="SRM University" className="university-logo" />
                     <div className="edu-info">
                         <h1>Bachelor's</h1>
-                        <p>SRM University</p>
+                        <b>SRM University</b>
+                        <p>Computer Science</p>
                         <p>Aug 2018 to May 2022</p>
                         <p>GPA: 3.6</p>
                     </div>
