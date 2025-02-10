@@ -21,11 +21,8 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-        <a
-          href="/assets/src/assets/src/assets/BharatChundruResume.pdf"
-          download
-          className="hero-resume"
-        >
+      <a href="/BharatChundruResume.pdf" download className="hero-resume">
+
           <button className="download-btn">
              Resume
           </button>
