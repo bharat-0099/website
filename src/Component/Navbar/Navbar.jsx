@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className='navbar'>
-            <p className='nav-p'>Bharat.</p>
+            <p className='nav-p'>    BC .</p>
             <ul className='nav-menu'>
                 <AnchorLink className="anchor-link" offset={50} href='#about'>
                     <li onClick={() => setMenu("about")}>About</li>
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <AnchorLink className="anchor-link" offset={50} href='#Education'>
                     <li onClick={() => setMenu("Education")}>Education</li>
                 </AnchorLink>
-                <AnchorLink className="anchor-link" offset={50} href='#Exiperince'>
+                <AnchorLink className="anchor-link" offset={50} href='#Experience'>
                     <li onClick={() => setMenu("Experience")}>Experience</li>
                 </AnchorLink>
                 <AnchorLink className="anchor-link" offset={50} href='#Business'>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li onClick={() => setMenu("Contact")}>Contact</li>
                 </AnchorLink>
             </ul>
-            
+
         </div>
     );
 };

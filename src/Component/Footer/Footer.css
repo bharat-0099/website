@@ -1,23 +1,40 @@
 .footer {
-    display: flex; 
-    justify-content: center; 
-    padding: 20px; 
-    
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+/* Add a horizontal line above the logos */
+.footer::before {
+    content: "";
+    width: 100%; /* Adjust line width */
+    height: 2px; /* Line thickness */
+    background-color: white; /* Adjust color as needed */
+    position: absolute;
+    top: 0; /* Position at the top of .footer */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px; /* Space between the line and logos */
 }
 
 .social {
-    display: flex; 
-    gap: 20px; 
-    align-items: center; 
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px; /* Space between line and icons */
 }
 
 .logo {
-    width: 30px; 
-    height: auto; 
-    transition: transform 0.3s ease; 
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
     border-radius: 20px;
 }
 
 .logo:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
+
