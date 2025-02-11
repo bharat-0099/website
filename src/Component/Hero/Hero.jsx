@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import profilepicture from '../../assets/profilepicture.png';
+import resumePDF from '../../assets/BharatChundruResume.pdf';
 import hub from '../../assets/hub.png';
 import res from '../../assets/res.png';
 import linkedin from '../../assets/linkedin.png';
@@ -21,12 +22,14 @@ const Hero = () => {
       </p>
 
       <div className="hero-action">
-      <a href="/BharatChundruResume.pdf" download className="hero-resume">
+        <button
+          className="download-btn"
+          onClick={() => window.open(resumePDF, '_blank')}
+        >
+          Resume
+        </button>
 
-          <button className="download-btn">
-             Resume
-          </button>
-        </a>
+
       </div>
 
       <div className="hero-icons">
