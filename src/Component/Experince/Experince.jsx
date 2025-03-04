@@ -44,7 +44,8 @@ const Experince = () => {
             <p>March 2024 to Present</p>
             <ul>
               <li>Developed responsive user interfaces using HTML5, CSS3, and Bootstrap Grid System, leveraging Flexbox and media queries to ensure cross-device compatibility and enhanced accessibility.</li>
-              <li>Reduced code redundancy by 25% by implementing reusable React components using React Hooks (useState, useEffect) and optimizing state management with Redux Toolkit, including reducers, middleware, and selectors.</li>
+              <li>Implemented reusable React components and optimizing state management using Redux Toolkit, including actions, reducers, thunks, and selectors to efficiently manage and streamline application state
+              </li>
               <li>Built a high-concurrency payment processing system using Spring Boot Async Programming with @Async and CompletableFuture, improving throughput by 40%. Utilized ThreadPoolTaskExecutor to optimize thread management and avoid bottlenecks during bulk API calls.</li>
               <li>Solved slow database queries in a multi-tenant application by implementing Spring Data JPA Specifications with dynamic query filters and @EntityGraph for lazy loading, reducing query time by 60%.</li>
               <li>Enhanced deployment frequency by 50% through Agile methodologies, actively participating in sprint planning, backlog grooming, and performing pull request (PR) reviews using tools like Bitbucket and GitHub.
@@ -67,29 +68,31 @@ const Experince = () => {
           </div>
         </div>
         <div className="exp-box">
-        <img src={apssdc} alt="UIS Logo" className="university-logo" />
+        <img src={bsnl} alt="UIS Logo" className="university-logo" />
           <div className="exp-info">
-            <h2>Software Engineer Intern</h2>
-            <p>Andhra Pradesh State Development Skill Corporation (APSSDC)</p>
-            <p>Jun 2022 to Aug 2022</p>
+            <h2>Software Engineer </h2>
+            <p>BSNL </p>
+            <p>Dec 2021 to July 2022</p>
             <ul>
-              <li>Designed and maintained web applications using HTML5, CSS3, and JavaScript, integrating AJAX for real-time updates and optimizing backend logic with Java EE Servlets, JSP, and JDBC, achieving a 30% performance boost in request handling.</li>
-              <li>Built a job portal with modular features such as JWT-based authentication, OAuth2 login integration, and role-based access control (RBAC). Enhanced search functionalities with Elasticsearch and filter-based indexing, reducing search latency by 40%</li>
-              <li>Optimized database performance by using Hibernate Criteria API and implementing HikariCP connection pooling, reducing query execution time by 25% and improving transaction efficiency.</li>
+              <li>Designed and maintained dynamic web applications using React, JavaScript, HTML5, and SCSS, leveraging React Query for real-time updates and optimizing backend logic with Spring Boot, REST APIs, and JDBC, achieving a 30% performance boost in request handling
+              </li>
+              <li>Built with modular features such as JWT-based authentication, OAuth2 login integration, and role-based access control (RBAC) using RESTful APIs. Enhanced search functionalities with Elasticsearch and filter-based indexing, reducing search latency by 40%.
+              </li>
+              <li>Developed an automated testing framework using JUnit for backend unit testing and integrated Maven build profiles for environment-specific configurations, ensuring efficient builds and consistent test coverage.
+              </li>
               <li>Developed an automated testing framework using JUnit for backend unit testing and integrated Maven build profiles for environment-specific configurations, ensuring efficient builds and consistent test coverage.</li>
             </ul>
           </div>
         </div>
 
         <div className="exp-box">
-        <img src={bsnl} alt="UIS Logo" className="university-logo" />
+        <img src={apssdc} alt="UIS Logo" className="university-logo" />
           <div className="exp-info">
             <h2>Wb Developer Intern </h2>
             <p>BSNL India</p>
             <p>March 2021 to June 2021</p>
             <ul>
-              <li>Designed and maintained Dashboards using HTML5, CSS3, and JavaScript, Improved UI/UX performance, Optimized
-backend development using Node.js and Express.js, Implemented SQL queries for database management and optimization
+              <li>Designed and maintained Dashboards using HTML5, CSS3, and JavaScript, improving UI/UX performance, Optimized backend development using Node.js and Express, and Implemented SQL queries for database management and optimization.
  </li>
               <li>Collaborated with designers and backend developers to integrate
               RESTful APIs and enhance functionality</li>
