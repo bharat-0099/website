@@ -25,9 +25,9 @@
   }
   
   .skill-logo {
-    width: 45px; 
-    height: auto; 
-    margin: 10px; 
+    width: 55px; 
+    height: 40px; 
+    margin: 10px;
     transition: transform 0.3s, opacity 0.3s;
   }
   
@@ -52,6 +52,15 @@
   
   .skill-logo:nth-child(10) { order: 4; } 
   .skill-logo:nth-child(11) { order: 4; }
+  .skill-logo:nth-child(12) { order: 4; }
+  .skill-logo:nth-child(13) { order: 4; }
+  .skill-logo:nth-child(14) { order: 4; }
+  .skill-logo:nth-child(15) { order: 4; }
+  .skill-logo:nth-child(16) { order: 4; }
+  .skill-logo:nth-child(17) { order: 4; }
+  .skill-logo:nth-child(18) { order: 4; }
+  .skill-logo:nth-child(19) { order: 4; }
+  .skill-logo:nth-child(20) { order: 4; }
   
   .skill-logo:hover {
     transform: scale(2.5); 

@@ -5,6 +5,7 @@ import uis from '../../assets/uis.svg';
 import doit from '../../assets/doit.png';
 import apssdc from '../../assets/apssdc.jpg';
 import bsnl from '../../assets/Bsnl.png';
+import intechl from '../../assets/intech.png';
 
 const Experince = () => {
   useEffect(() => {
@@ -55,24 +56,26 @@ const Experince = () => {
           </div>
         </div>
         <div className="exp-box">
-          <img src={uis} alt="UIS Logo" className="university-logo" />
+          <img src={intechl} alt="UIS Logo" className="university-logo" />
           <div className="exp-info">
             <h2>Event Cordinator</h2>
-            <p>University of Illinois Springfield</p>
-            <p>Dec 2022 to Nov 2023</p>
+            <p>In Technet</p>
+            <p>Aug 2021 - July 2022</p>
             <ul>
-              <li>Event Planning: Organizing cultural, educational, and recreational events that represent culture while fostering inclusivity among the student community.</li>
-              <li>Budget Management: Planning event budgets efficiently and seeking funding or sponsorships when necessary.</li>
-              <li>Volunteer Management: Recruiting, training, and managing volunteers to support event execution.</li>
+              <li>Spearheaded frontend development with React and React Query, enabling seamless data synchronization with backend APIs.</li>
+              <li>Built and optimized REST APIs using Spring Boot and JDBC, enhancing application responsiveness by 30%.</li>
+              <li>Leveraged Elasticsearch for high-speed full-text search, improving query performance by 40%.</li>
+              <li>Implemented CI/CD pipelines with GitHub Actions and Jenkins, cutting release times by 50%.</li>
+              <li>Led secure API design using JWT/OAuth2 and built automated testing with JUnit and Maven.</li>
             </ul>
           </div>
         </div>
         <div className="exp-box">
         <img src={bsnl} alt="UIS Logo" className="university-logo" />
           <div className="exp-info">
-            <h2>Software Engineer </h2>
+            <h2>Software Engineer Intern</h2>
             <p>BSNL </p>
-            <p>Dec 2021 to July 2022</p>
+            <p>March 2021 - June 2021</p>
             <ul>
               <li>Designed and maintained dynamic web applications using React, JavaScript, HTML5, and SCSS, leveraging React Query for real-time updates and optimizing backend logic with Spring Boot, REST APIs, and JDBC, achieving a 30% performance boost in request handling
               </li>
@@ -90,7 +93,7 @@ const Experince = () => {
           <div className="exp-info">
             <h2>Wb Developer Intern </h2>
             <p>BSNL India</p>
-            <p>March 2021 to June 2021</p>
+            <p>Sep 2020 - Dec 2020</p>
             <ul>
               <li>Designed and maintained Dashboards using HTML5, CSS3, and JavaScript, improving UI/UX performance, Optimized backend development using Node.js and Express, and Implemented SQL queries for database management and optimization.
  </li>
