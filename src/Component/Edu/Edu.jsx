@@ -22,7 +22,7 @@ const Edu = () => {
                        
                     </div>
                 </div>
-                <div className="edu-box">
+                {/*<div className="edu-box">
                     <img src={srm} alt="SRM University" className="university-logo" />
                     <div className="edu-info">
                         <h1>Bachelor's</h1>
@@ -31,7 +31,7 @@ const Edu = () => {
                         <p>Aug 2018 to May 2022</p>
                         <p>GPA: 3.6</p>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import profilepicture from '../../assets/profilepicture.png';
-import resumePDF from '../../assets/BharatResume.pdf';
+import resumePDF from '../../assets/BharatChundruResume.pdf';
 import hub from '../../assets/hub.png';
 import linkedin from '../../assets/linkedin.png';
 
@@ -12,7 +12,7 @@ const Hero = () => {
       <h1>👋 Hi, I'm Bharat Chundru</h1>
 
       <p className="hero-intro">
-      Software Engineer with over 2 years of hands-on experience designing and developing robust backend systems and full-stack web applications. My technical expertise lies in working with Java, Spring Boot, React, and Databases, and I specialize in building scalable, secure, and high-performance solutions that solve real-world business challenges.
+      Software Engineer with over 4 years of hands-on experience designing and developing robust backend systems and full-stack web applications. My technical expertise lies in working with Java, Spring Boot, React, Databases and AWS, and I specialize in building scalable, secure, and high-performance solutions that solve real-world business challenges.
       </p>
       <br></br>
       <p>I have experience creating and maintaining RESTful and GraphQL APIs, implementing asynchronous processing using Spring Boot’s @Async and CompletableFuture, and building clean, modular frontends with React and Redux Toolkit.</p>

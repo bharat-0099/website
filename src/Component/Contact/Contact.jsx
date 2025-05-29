@@ -58,7 +58,7 @@ const Contact = () => {
                 <div className="contact-left">
                     <h1>Let's Talk</h1>
                     <p>Please feel free to send a message about anything that you want me to work on.</p>
-                    <label><img src={m} alt="gmail logo"/> chundrubharat6699@gmail.com</label>
+                    <label><img src={m} alt="gmail logo"/> chundrubharat1999@gmail.com</label>
                 </div>
                 <form className="contact-right" onSubmit={onSubmit}>
                     <label>Your Name</label>
