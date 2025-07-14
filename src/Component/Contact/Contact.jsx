@@ -9,16 +9,13 @@ const Contact = () => {
         event.preventDefault();
         setResult("Sending...");
 
-        
         const form = event.target;
         const name = form.name.value.trim();
         const email = form.email.value.trim();
         const message = form.message.value.trim();
 
-        
         if (!name || !email || !message) {
-            alert("Please fill out all fields before submitting.");
-            setResult("");
+            setResult("Please fill out all fields before submitting.");
             return;
         }
 
@@ -34,18 +31,15 @@ const Contact = () => {
             const data = await response.json();
 
             if (data.success) {
-                setResult("Form Submitted Successfully");
-                alert("Details sent successfully!");
+                setResult("Form submitted successfully!");
                 form.reset();
             } else {
                 console.error("Error:", data);
-                setResult(data.message);
-                alert(`Error: ${data.message}`);
+                setResult(`Error: ${data.message}`);
             }
         } catch (error) {
             console.error("Submission failed:", error);
             setResult("An error occurred. Please try again.");
-            alert("An error occurred. Please try again.");
         }
     };
 
@@ -57,20 +51,23 @@ const Contact = () => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's Talk</h1>
-                    <p>Please feel free to send a message about anything that you want me to work on.</p>
-                    <label><img src={m} alt="gmail logo"/> chundrubharat1999@gmail.com</label>
+                    <p>Please feel free to send a message about anything you'd like me to work on.</p>
+                    <label>
+                        <img src={m} alt="Gmail logo" /> bharat.softwaredev@outlook.com
+                    </label>
                 </div>
                 <form className="contact-right" onSubmit={onSubmit}>
                     <label>Your Name</label>
-                    <input type="text" placeholder="Enter your Name" name="name" required />
-                    
+                    <input type="text" name="name" placeholder="Enter your name" required />
+
                     <label>Email</label>
-                    <input type="email" placeholder="Enter your Email" name="email" required />
-                    
+                    <input type="email" name="email" placeholder="Enter your email" required />
+
                     <label>Message</label>
-                    <textarea name="message" placeholder="Enter your Message" required></textarea>
-                    
+                    <textarea name="message" placeholder="Enter your message" required></textarea>
+
                     <button className="contact-submit" type="submit">Submit</button>
+                    <span className="form-status">{result}</span>
                 </form>
             </div>
         </div>

@@ -3,7 +3,8 @@ import './Certification.css';
 import Wells from '../../assets/wells.png';
 import walmart from '../../assets/walmart.png';
 import accen from '../../assets/accen .png';
-
+import awscert from '../../assets/AWS_certf.pdf';
+import aws from '../../assets/aws.png';
 
 const Edu = () => {
     const openCertificate = (url) => {
@@ -16,6 +17,25 @@ const Edu = () => {
                 <h1>Certifications</h1>
             </div>
             <div className="cef-container">
+            <div className="cef-box">
+                    <img src={aws} alt="aws" className="cef-logo" />
+                    <div className="cef-info">
+                        <h1>DevOps on AWS</h1>
+                        
+                        <p>Skills : CI/CD, Infrastructure as Code (IaC), AWS CloudFormation, Terraform, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy</p>
+                        <button
+                            onClick={() =>
+                                openCertificate(
+                                    '../../assets/AWS_certf.pdf'
+                                )
+                            }
+                        >
+                            View Certificate
+                        </button>
+                    </div>
+                </div>
+
+
                 <div className="cef-box">
                     <img src={walmart} alt="Walmart" className="cef-logo" />
                     <div className="cef-info">

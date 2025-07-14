@@ -48,7 +48,7 @@ const Skills = () => {
           <img src={gitlogo} alt="GitHub logo" className="skill-logo" />
           <img src={devOps} alt="DevOps logo" className="skill-logo" />
           <img src={AWS} alt="AWS logo" className="skill-logo" />
-          <img src={GCP} alt="GCP logo" className="skill-logo" />
+          
         </div>
       </div>
     </div>
