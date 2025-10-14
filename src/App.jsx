@@ -4,7 +4,7 @@ import Hero from "./Component/Hero/Hero";
 import Edu from "./Component/Edu/Edu";
 import Skills from "./Component/Skills/Skills";
 import Experince from "./Component/Experince/Experince";
-import Business from "./Component/Business/Business";
+import Entrepreneurship from "./Component/Entrepreneurship/Entrepreneurship";
 import Projects from "./Component/Projects/Projects";
 import Contact from "./Component/Contact/Contact";
 import Footer from "./Component/Footer/Footer";
@@ -20,7 +20,7 @@ function App() {
     <Edu/>
     <Experince/>
     <Certification/>
-    <Business/>
+    <Entrepreneurship/>
     <Projects/>
     <Contact/>
     <Footer/>

@@ -4,7 +4,9 @@ import Wells from '../../assets/wells.png';
 import walmart from '../../assets/walmart.png';
 import accen from '../../assets/accen .png';
 import awscert from '../../assets/AWS_certf.pdf';
-import aws from '../../assets/aws.png';
+import aws from '../../assets/aws_developer.pdf';
+import aws2 from '../../assets/aws.png';
+
 
 const Edu = () => {
     const openCertificate = (url) => {
@@ -18,20 +20,18 @@ const Edu = () => {
             </div>
             <div className="cef-container">
             <div className="cef-box">
-                    <img src={aws} alt="aws" className="cef-logo" />
+                    <img src={aws2} alt="AWS" className="cef-logo" />
                     <div className="cef-info">
-                        <h1>DevOps on AWS</h1>
-                        
-                        <p>Skills : CI/CD, Infrastructure as Code (IaC), AWS CloudFormation, Terraform, AWS CodePipeline, AWS CodeBuild, AWS CodeDeploy</p>
+                        <h1>AWS Developer Associate</h1>
+                        <div data-iframe-width="150" data-iframe-height="380" data-share-badge-id="238f246d-226e-4651-b7f8-917861926e49" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <p>Credintials Id: 238f246d-226e-4651-b7f8-917861926e49</p>
+                        <p>Expiry: Aug 2028</p>
                         <button
-                            onClick={() =>
-                                openCertificate(
-                                    '../../assets/AWS_certf.pdf'
-                                )
-                            }
-                        >
-                            View Certificate
-                        </button>
+          className="download-btn"
+          onClick={() => window.open(aws, '_blank')}
+        >
+          View Certificate
+        </button>
                     </div>
                 </div>
 

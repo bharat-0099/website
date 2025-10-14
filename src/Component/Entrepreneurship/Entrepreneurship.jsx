@@ -1,5 +1,5 @@
 import React from 'react'
-import './Business.css';
+import './Entrepreneurship.css';
 import address from '../../assets/address.png';
 import catlog from '../../assets/catlog.png';
 import payment from '../../assets/payment.png';
@@ -9,11 +9,11 @@ import welcome from '../../assets/welcome.png';
 import singup from '../../assets/singup.png';
 
 
-const Business = () => {
+const Entrepreneurship = () => {
     return (
         <div id='Business' className='bus'>
             <div className="bus-title">
-                <h1>Business Model</h1>
+                <h1>Entrepreneurship Innovation</h1>
             </div>
             <div className="bus-overview">
                 <h2>Overview:</h2>
@@ -81,4 +81,4 @@ const Business = () => {
     )
 }
 
-export default Business
+export default Entrepreneurship

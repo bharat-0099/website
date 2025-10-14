@@ -25,7 +25,7 @@ const Navbar = () => {
                     <li onClick={() => setMenu("Experience")}>Experience</li>
                 </AnchorLink>
                 <AnchorLink className="anchor-link" offset={50} href='#Business'>
-                    <li onClick={() => setMenu("Business")}>Business Model</li>
+                    <li onClick={() => setMenu("Entrepreneurship")}>Entrepreneurship Innovation</li>
                 </AnchorLink>
                 <AnchorLink className="anchor-link" offset={50} href='#Projects'>
                     <li onClick={() => setMenu("Projects")}>Projects</li>

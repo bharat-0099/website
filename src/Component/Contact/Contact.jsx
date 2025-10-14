@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import m from '../../assets/m.png';
+import cont from '../../assets/con.png';
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -53,8 +54,13 @@ const Contact = () => {
                     <h1>Let's Talk</h1>
                     <p>Please feel free to send a message about anything you'd like me to work on.</p>
                     <label>
-                        <img src={m} alt="Gmail logo" /> bharat.softwaredev@outlook.com
+                        <img src={m} alt="Gmail logo" /> bharatchundru1@gmail.com
                     </label>
+                    
+                    <label>
+                        <img src={cont} alt="Contact logo" /> +91 9490485333
+                    </label>
+
                 </div>
                 <form className="contact-right" onSubmit={onSubmit}>
                     <label>Your Name</label>
