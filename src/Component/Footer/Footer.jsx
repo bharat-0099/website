@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="social">
-        <a href="mailto:bharatchundru1@gmail.com">
+        <a href="mailto:bharatchundru11@gmail.com">
           <img src={mail} alt="Gmail" className='logo' />
         </a>
 

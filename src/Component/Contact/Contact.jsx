@@ -54,11 +54,11 @@ const Contact = () => {
                     <h1>Let's Talk</h1>
                     <p>Please feel free to send a message about anything you'd like me to work on.</p>
                     <label>
-                        <img src={m} alt="Gmail logo" /> bharatchundru1@gmail.com
+                        <img src={m} alt="Gmail logo" /> bharatchundru11@gmail.com
                     </label>
                     
                     <label>
-                        <img src={cont} alt="Contact logo" /> +91 9490485333
+                        <img src={cont} alt="Contact logo" /> +1 470 531 7248
                     </label>
 
                 </div>
